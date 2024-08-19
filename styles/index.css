@@ -1,18 +1,18 @@
 *
 {
-    cursor: url("/pictures/cursor.png"), auto;
+    cursor: url("./pictures/cursor.png"), auto;
     margin: 0;
     padding: 0;
 }
 
 @font-face{
     font-family: 'pixel-hanzi';
-    src: url('/fonts/Uranus_Pixel_11Px.ttf');
+    src: url('./fonts/Uranus_Pixel_11Px.ttf');
 }
 
 body{
     font-family: 'pixel-hanzi', sans-serif;
-    background-image: url('/pictures/3.jpg');
+    background-image: url('./pictures/3.jpg');
     background-size: 100% 100%;  /* This forces the image to stretch and cover the entire screen */
     background-repeat: no-repeat;  /* This prevents the image from repeating */
     background-position: center;  /* This centers the image */
