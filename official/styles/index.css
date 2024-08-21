@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face{
+    font-family: 'pixel-hanzi';
+    src: url('../fonts/hzk-pixel-16px.ttf');
+}
+
+body{
+    font-family: 'pixel-hanzi', sans-serif;
+}
+
+#header{
+    color: #eaeee2;
+    background-color: #b1674c;
+    height: 22px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul,il{
+    list-style-type: none;
+}
+
+.header_button {
+    font-size: 8px;
+    border: 2px solid #000000;
+    background-color: white;
+    height: 15px;
+    width: 50px;
+    font-family: 'pixel-hanzi';
+    color: black;
+}
+
+.header_button:hover{
+    transform: translateY(-2px);
+}
+
+
+
+.section{
+    min-height: 100vh;
+    text-align: center;
+    padding: 5px;
+}
+
+.section_1{
+    background-image: url('../pictures/1.png');
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-attachment: scroll;
+}
+
+h5:hover{
+    font-size: 12px;
+    
+}
+
+.section_2{
+
+    background-color: #4b692f;
+}
+
+.section_2 h5{
+    color: white;
+}
+
+.section_3{
+    background-color: #83d1ec;
+}
+
+.section_3 h5{
+    color: black
+}
+
+.section_4{
+    background-color: #eec39a;
+}
+
+.section_4 h5{
+    color:     #de0d0d;
+}
+
+
+
+.common_pixel_effect{
+    clip-path: polygon(
+    0px 20px,
+    4px 20px,
+    4px 12px,
+    8px 12px,
+    8px 8px,
+    12px 8px,
+    12px 4px,
+    16px 4px,
+    20px 4px,
+    20px 0px,
+    calc(100% - 20px) 0px,
+    calc(100% - 20px) 4px,
+    calc(100% - 12px) 4px,
+    calc(100% - 12px) 8px,
+    calc(100% - 8px) 8px,
+    calc(100% - 8px) 12px,
+    calc(100% - 4px) 12px,
+    calc(100% - 4px) 16px,
+    calc(100% - 4px) 20px,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 4px) calc(100% - 20px),
+    calc(100% - 4px) calc(100% - 12px),
+    calc(100% - 8px) calc(100% - 12px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 12px) calc(100% - 8px),
+    calc(100% - 12px) calc(100% - 4px),
+    calc(100% - 16px) calc(100% - 4px),
+    calc(100% - 20px) calc(100% - 4px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    20px calc(100% - 4px),
+    12px calc(100% - 4px),
+    12px calc(100% - 8px),
+    8px calc(100% - 8px),
+    8px calc(100% - 12px),
+    4px calc(100% - 12px),
+    4px calc(100% - 16px),
+    4px calc(100% - 20px),
+    0px calc(100% - 20px)
+  );
+}
+
+.button_pixel_efect{
+    clip-path: polygon(
+        0px calc(100% - 2px),
+        2px calc(100% - 2px),
+        2px 100%,
+        calc(100% - 2px) 100%,
+        calc(100% - 2px) calc(100% - 2px),
+        100% calc(100% - 2px),
+        100% 2px,
+        calc(100% - 2px) 2px,
+        calc(100% - 2px) 0px,
+        2px 0px,
+        2px 2px,
+        0px 2px
+      );
+}
